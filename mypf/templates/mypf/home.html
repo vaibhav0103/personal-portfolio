@@ -1,0 +1,35 @@
+{% extends 'mypf/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center margin">
+            <div class="col-7">
+                <!--Custom Api form-->
+                <form method="POST" class="form-inline">
+                    {% csrf_token %}
+                    <label class="my-1 mr-2" for="name">Name</label>
+                    <input type="text" name="name" class="form-control mb-2 mr-sm-2" id="name" placeholder="Jane Doe">
+
+                    <label class="my-1 mr-2" for="gender">Gender</label>
+                    <select name="gender" class="custom-select mb-2 mr-sm-2" id="gender">
+                        <option selected>Select</option>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                    </select>
+                    <button type="button" class="btn btn-primary mb-2 btn-sub">Generate Your</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center margin">
+            <div class="pflink">
+                <a href="{% url 'portfolio' %}">Check Portfolio</a>
+            </div>
+        </div>
+        <div class="row justify-content-center margin">
+            <div class="col-8">
+                <img class="img-fluid" name="srcapi" id="srcapi" src="https://belikebill.ga/billgen-API.php?default=1&name=Jane Doe&sex=f">
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

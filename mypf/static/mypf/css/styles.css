@@ -1,0 +1,120 @@
+/* CUSTOM CSS */
+
+body {
+    background-image:url('/static/mypf/img/background2.jpeg');
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.margin{
+    margin-top: 40px;
+}
+
+.home-brand{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+header.masthead {
+    padding-top: calc(3rem + 10px);
+    padding-bottom: 3rem;
+}
+
+hr.star-dark {
+    border-color: #2c3e50;
+}
+
+hr.star-dark, hr.star-light {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.star-dark:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+hr.star-dark:after, hr.star-light:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+
+label {
+    color:#fff;
+}
+
+.pflink{
+    background-color:#007bff;
+    padding:5px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.pflink:hover{
+    background-color:#3858f5;
+}
+
+.pflink a{
+    color: #fff;
+    font-size: 22px;
+    height: 100%;
+    display: block;
+}
+
+.pflink a:hover{
+    text-decoration: none;
+}
+
+.about-1{
+    background-color:#0070e1;
+}
+.about-2{
+    background-color:#007bff;
+}
+
+.btn-cv{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-cv:hover{
+    background-color:#0070e1;
+    border:1px solid #fff;
+    color: #fff;
+}
+
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /*background-color: #2c3e50;*/
+    color: #fff;
+}
+
+
+@media (min-width: 992px){
+    header.masthead {
+        padding-top: calc(3rem + 20px);
+        padding-bottom: 3rem;
+    }
+}

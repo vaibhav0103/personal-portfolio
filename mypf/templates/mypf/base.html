@@ -1,0 +1,30 @@
+{% load static %}
+<!--loaded static files-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Vaibhav Sharma | Welcome</title>
+    <!--adding bootstrap, custom css and fontawesome files-->
+    <link href="{% static 'mypf/bootstrap-4/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'mypf/css/styles.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Adding navbar -->
+    {% include 'mypf/navbar.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+    <!--Adding footer -->
+    {% include 'mypf/footer.html' %}
+    <!-- Adding custom js, bootsrap js, jquery and related script files-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="{% static 'mypf/js/jquery3.3.1.js' %}"></script>
+    <script src="{% static 'mypf/bootstrap-4/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'mypf/js/script.js' %}"></script>
+</body>
+</html>
