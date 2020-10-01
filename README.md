@@ -1,4 +1,4 @@
-# personal-portfolio
+# personal-portfolio - An amazing project
  A Django based personal portfolio website.
 
 # Requirements (that shall be installed in your system)
