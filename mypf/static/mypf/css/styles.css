@@ -118,3 +118,43 @@ label {
         padding-bottom: 3rem;
     }
 }
+/* #################Change################### */
+img {
+    opacity: 0.7;
+    color: #2c3e50;
+  }
+
+img:hover {
+    opacity: 1.0;
+  }
+
+
+  
+  .button
+  {
+    position: relative;
+    text-align: center;
+    width: 10px;
+    padding: 12px;
+    font-size: 12px;
+    color: #f1f5f5;
+    font-family: sans-serif;
+    font-weight: 800;
+    border: 2px solid #0c4644;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+  
+  }
+  
+  .button:hover
+  {
+    box-shadow: 0 5px 50px 0 #e4ece9 inset, 0 5px 50px 0 #000000,
+                0 5px 50px 0 #0f0f0f inset, 0 5px 50px 0 #070707;
+    text-shadow: 0 0 5px #c3f0ee, 0 0 5px #d4e9e8;            
+  }
+
+/* ################################################################## */
+
+

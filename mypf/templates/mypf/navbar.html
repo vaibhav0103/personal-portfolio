@@ -1,6 +1,6 @@
 {% load static %}
 <nav class="navbar navbar-expand-md navbar-dark">
-    <div class="container">
+    <div class="container ">
         <a class="navbar-brand" href="{% url 'home' %}">
             <img src="{% static 'mypf/img/icon.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
             <span class="home-brand">Vaibhav Sharma</span>
@@ -11,13 +11,13 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav mx-auto" id="navid">
                 <li class="nav-item" id="nav1">
-                    <a class="nav-link" href="{% url 'home' %}">Home<span class="sr-only">(current)</span></a>
+                    <a class="button" href="{% url 'home' %}">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item" id="nav2">
-                    <a class="nav-link" href="{% url 'portfolio' %}">Portfolio</a>
+                    <a class="button" href="{% url 'portfolio' %}">Portfolio</a>
                 </li>
                 <li class="nav-item" id="nav3">
-                    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                    <a class="button" href="{% url 'contact' %}">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
