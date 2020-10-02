@@ -1,5 +1,5 @@
 # personal-portfolio
- A Django based personal portfolio website.
+ A Django based personal your own portfolio website.
 
 # Requirements (that shall be installed in your system)
 1. Git 
@@ -10,7 +10,7 @@
 
 1. Firstly, clone the repository using the git shell <br>
 <code>$ git clone https://github.com/vaibhav0103/personal-portfolio.git</code> <br>
-2. Goto the base directory of the project <br>
+2. Go to the base directory of the project <br>
 <code>cd portfolio </code> <br>
 3. Create a virtual environment and activate it. <br>
 <code>$ virtualenv venv</code> <br>
